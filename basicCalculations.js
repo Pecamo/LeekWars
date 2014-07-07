@@ -66,5 +66,5 @@ function calcHeal(damage, agility) {
  * Cores : 1
  */
 function meanDamages(min, max) {
-  return (min, max)/2;
+  return (min + max)/2;
 }
